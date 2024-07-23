@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="chek2.css">
+</head>
+<body>
+    <div class="cart">
+        <h1>Shopping Cart</h1>
+        <div class="cart-item" data-price="19.99">
+            <span class="item-name">Item 1</span>
+            <div class="quantity">
+                <button class="minus">-</button>
+                <span class="quantity-value">1</span>
+                <button class="plus">+</button>
+            </div>
+            <span class="item-price">$19.99</span>
+            <button class="delete">Delete</button>
+            <button class="like">❤</button>
+        </div>
+        <!-- Repeat above block for more items -->
+        <div class="total">
+            Total: $<span class="total-price">0.00</span>
+        </div>
+    </div>
+    <script src="chek3.js"></script>
+</body>
+</html>
